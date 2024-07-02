@@ -37,7 +37,6 @@ export default function Home() {
         accept="application/pdf"
         onChange={handleChange}
       />
-      Test
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
         {pdfFile && (
           <div className="w-700 h-750">
